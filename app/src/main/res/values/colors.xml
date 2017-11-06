@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="blackTrans">#55000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="blueBack">#1FA7E4</color>
+    <color name="haven">#65ACE3</color>
+    <color name="Heirloom">#327CCB</color>
+    <color name="Gamebookers">#3299BB</color>
+    <color name="Cosmo">#304269</color>
+
+    <color name="OrangeTitle">#FFCE2F</color>
+    <color name="OrangeTitleTrans">#CCFFCE2F</color>
+    <color name="OrangeBody">#FDF7E9</color>
+    <color name="OrangeDark">#F99602</color>
+
+
+
+</resources>

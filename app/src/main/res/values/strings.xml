@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PainScale</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">התחבר</string>
+    <string name="Q1">
+        <![CDATA[
+כמה כאב לך<b> הראש בממוצע</b> ב 24 שעות האחרונות מ-0 עד 100? <br>  <b> 0 = לא כואב, <br>100 = הכי כואב שניתן לדמיין</b>
+]]>
+        </string>
+
+        <string name="Q2">
+        <![CDATA[
+כמה כאב לך<b> הצוואר בממוצע</b> ב 24 שעות האחרונות מ-0 עד 100? <br>  <b> 0 = לא כואב, <br>100 = הכי כואב שניתן לדמיין</b>
+]]>
+        </string>
+
+        <string name="Q3">
+        <![CDATA[
+כמה כאב לך<b> הראש במקסימום </b> ב 24 שעות האחרונות מ-0 עד 100? <br>  <b> 0 = לא כואב, <br>100 = הכי כואב שניתן לדמיין</b>
+ ]]>
+        </string>
+
+        <string name="Q4">
+        <![CDATA[
+כמה כאב לך<b> הצוואר במקסימום </b> ב 24 שעות האחרונות מ-0 עד 100? <br>  <b> 0 = לא כואב, <br>100 = הכי כואב שניתן לדמיין</b>
+]]>
+        </string>
+
+            <string name="Q5">
+        <![CDATA[
+כיצד אתה מדרג היום את בריאותך מ-0 עד 100? <br>  <b> 0 = הבריאות הכי גרועה שאתה יכול לדמיין, <br>100 = הבריאות הכי טובה שאתה יכול לדמיין </b>
+]]>
+        </string>
+
+                <string name="Q6">
+        <![CDATA[
+מהן התרופות שהשתמשת בהן בשבוע האחרון באופן קבוע  (יום יומי) לשיכוך כאב? <br> נא ציין את שם התרופה והמינון.
+]]>
+        </string>
+
+    <string name="next">הבא</string>
+    <string name="prev">הקודם</string>
+    <string name="done">הנתונים לחודש זה נשלחו בהצלחה, עליך לחכות להתראה החודשית בעוד 30 יום.</string>
+    <string name="finish">סיים</string>
+    <string name="close">סגור</string>
+</resources>

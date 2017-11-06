@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ignore="http://www.galasoft.ch/ignore"
+    mc:Ignorable="ignore"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="keyboardHidden|orientation"
+    android:weightSum="3">
+
+    tools:context="com.medstat.shahaf.medstat.PainQuestions">
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignTop="@+id/question_text"
+        android:src="#a21d2eec"
+        android:layout_above="@+id/addMedicine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+       -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:id="@+id/activityRoot"
+        android:layout_height="match_parent">
+
+        <TextView android:id="@+id/question_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/Q1"
+            android:gravity="center"
+            android:textSize="21dip"
+            android:configChanges="keyboardHidden|orientation"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:background="@drawable/textlines" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_height="match_parent"
+            android:configChanges="keyboardHidden|orientation"
+            android:id="@+id/relativeLayout">
+
+            <TextView android:id="@+id/seekBar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34343434343"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <SeekBar
+
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:layout_width="420dp"
+                android:max="100"
+                android:progress="0"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/seekBar_text"
+                android:layout_gravity="center" />
+
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/upButton"
+                android:src="@mipmap/ic_plus"
+                ignore:layout_centerVertical="true"
+                android:background="#0000"
+                android:layout_below="@+id/seekBar_text"
+                android:layout_toRightOf="@+id/seekBar"
+                android:layout_toEndOf="@+id/seekBar" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/downButton"
+                android:src="@mipmap/ic_minus"
+                ignore:layout_centerVertical="true"
+                android:background="#0000"
+                android:layout_below="@+id/seekBar_text"
+                android:layout_toLeftOf="@+id/seekBar"
+                android:layout_toStartOf="@+id/seekBar" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="@string/next"
+                android:background="@drawable/rounded_button"
+                android:id="@+id/nextButton"
+                android:textSize="20sp"
+                android:layout_alignTop="@+id/prevButton"
+                 />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/medicine_list"
+                android:layout_below="@+id/medicine_text"
+                android:layout_above="@+id/nextButton"
+                android:divider="@color/blackTrans"
+                android:dividerHeight="4px"
+                />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                android:text="@string/prev"
+                android:background="@drawable/rounded_button"
+                android:id="@+id/prevButton"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/medicine_text"
+                android:hint="שם תרופה"
+                ignore:layout_below="@+id/question_text"
+                android:layout_alignRight="@+id/upButton"
+                android:layout_alignEnd="@+id/upButton"
+                android:layout_toRightOf="@+id/addMedicine"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addMedicine"
+                android:layout_alignBottom="@+id/medicine_text"
+                android:layout_alignLeft="@+id/downButton"
+                android:layout_alignStart="@+id/downButton"
+                android:background="#0000"
+                android:src="@mipmap/ic_plus" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="#ff0000"
+            android:layout_alignRight="@+id/relativeLayout"
+            android:layout_alignEnd="@+id/relativeLayout" />
+
+    </LinearLayout><![CDATA[
+
+
+
+
+
+    android:layout_toEndOf="@+id/addMedicine" />
+
+
+
+
+
+]]>
+</RelativeLayout>
